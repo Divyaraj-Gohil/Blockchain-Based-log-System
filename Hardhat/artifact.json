@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getVisitor",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "walletAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "contactDetails",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "purpose",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct VisitorRecord.Visitor[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "purpose",
+						"type": "string"
+					}
+				],
+				"name": "registerVisitor",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract.sol": "VisitorRecord"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract.sol": {
+			"keccak256": "0x929e955d60e7c54a64f746bc0c67cebe8dc8d098155ab94d5f4d498e18cc5ca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e37a1669e6af77a557479e54922f5addcce3f4c0b1c279cf6ea22d6014222862",
+				"dweb:/ipfs/Qmf1AtLVAGhrPTEm6S31KAp8G9v3hdLT1VqA7j9Z1ktrUK"
+			]
+		}
+	},
+	"version": 1
+}
